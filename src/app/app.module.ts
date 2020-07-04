@@ -9,13 +9,14 @@ import { HomeComponent } from './home/home.component';
 import { StudentComponent } from './student/student.component'
 import { Routes } from '@angular/router';
 
-// const routes = [
-// { path : 'home' , component : HomeComponent},
-// { path : 'student' , component : StudentComponent}
-// ]
+const routes = [
+// { path : '' , component : AppComponent},
+{ path : 'home' , component : HomeComponent},
+{ path : 'student' , component : StudentComponent}
+]
 
 @NgModule({
-	imports : [ BrowserModule , FormsModule  ],
+	imports : [ BrowserModule , FormsModule , RouterModule.forRoot(routes) ],
 	declarations : [ AppComponent , HomeComponent , StudentComponent],
 	bootstrap : [ AppComponent ]
 })
