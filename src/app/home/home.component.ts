@@ -1,17 +1,18 @@
-import { Component } from '@angular/core';
+import { Component ,  OnInit } from '@angular/core';
 
 @Component(
 {
 	selector : 'pro-home',
-	templateUrl : 'home.component.html',
-	styleUrls : ['home.component.css']
+	template : `<h1>hi bro</h1>`,
+	styles : [`h1{color:red}`]
 
 })
 
-export class HomeComponent
+export class HomeComponent 
 {
 constructor()
 {
 console.log("home component is rendering");
 }
+
 }

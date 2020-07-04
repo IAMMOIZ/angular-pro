@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
 	selector : 'pro-student',
-	templateUrl : './student.component.html',
-	styleUrls : ['./student.component.css']
+	template : `<h1>this is student component</h1>`,
+	styles : [`h1{color:blue}`]
 })
 
 export class StudentComponent
