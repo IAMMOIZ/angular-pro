@@ -6,7 +6,8 @@ import { RouterModule } from '@angular/router'
 //import components
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { StudentComponent } from './student/student.component'
+import { StudentComponent } from './student/student.component';
+import { HeaderComponent } from './header/header.component';
 import { Routes } from '@angular/router';
 
 const routes = [
@@ -17,7 +18,7 @@ const routes = [
 
 @NgModule({
 	imports : [ BrowserModule , FormsModule , RouterModule.forRoot(routes) ],
-	declarations : [ AppComponent , HomeComponent , StudentComponent],
+	declarations : [ AppComponent , HeaderComponent ,HomeComponent , StudentComponent],
 	bootstrap : [ AppComponent ]
 })
 
