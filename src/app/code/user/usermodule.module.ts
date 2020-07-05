@@ -4,7 +4,6 @@ import { CommonModule } from '@angular/common';
 import { FormsModule ,ReactiveFormsModule} from '@angular/forms';
 // import { RouterModule , Routes } from '@angular/router';
 // import { MainusercomponentComponent } from './mainusercomponent/mainusercomponent.component';
-import { MainUserComponentComponent } from './mainusercomponent/mainusercomponent.component';
 import { UsermoduleRoutingModule } from './usermodule.router';
 const routes : Routes = [{path : '' , component : MainUserComponentComponent }]
 
