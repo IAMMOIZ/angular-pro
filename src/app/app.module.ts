@@ -8,7 +8,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { StudentComponent } from './student/student.component';
 import { HeaderComponent } from './header/header.component';
-
+// import routes information array
+import { routes  } from './app.router';
 
 
 @NgModule({

@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
 
 export class SearchComponent
 {
+  constructor(){
   console.log("search component is loaded");
+}
 }
