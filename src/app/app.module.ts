@@ -6,7 +6,6 @@ import { RouterModule } from '@angular/router'
 //import components
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { StudentComponent } from './student/student.component';
 import { HeaderComponent } from './header/header.component';
 // import routes information array
 import { routes  } from './app.router';
@@ -14,7 +13,7 @@ import { routes  } from './app.router';
 
 @NgModule({
 	imports : [ BrowserModule , FormsModule , RouterModule.forRoot(routes) ],
-	declarations : [ AppComponent , HeaderComponent ,HomeComponent , StudentComponent],
+	declarations : [ AppComponent , HeaderComponent ,HomeComponent ],
 	bootstrap : [ AppComponent ]
 })
 
