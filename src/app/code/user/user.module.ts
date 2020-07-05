@@ -7,7 +7,8 @@ const routes : Routes = [{path : '' , component : MainUserComponent }]
 @NgModule({
 declarations : [ MainUserComponent],
   imports : [ FormsModule, ReactiveFormsModule , RouterModule.forChild(routes)],
-exports : [ MainUserComponent]
+exports : [ MainUserComponent,
+            RouterModule]
 })
 
 export class UserModule
