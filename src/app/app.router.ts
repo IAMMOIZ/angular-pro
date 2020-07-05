@@ -10,7 +10,7 @@ import { Routes } from '@angular/router';
 //import { SchemaComponent } from './code/schema/mainschema/schemacomponent.component';
 
 //import features modules
-import { UserModule } from ;
+import { UserModule } from './code/user/user.module';
 import { GroupModule } from './code/group/group.module';
 import { ResourceModule } from './code/resource/resource.module';
 import { SchemaModule } from './code/schema/schema.module';
@@ -18,15 +18,15 @@ import { SharedModifyModule } from './code/modify/sharedmodify.module';
 
 
 //routes for components. for feature modules component property will be used.
-export const routes : Routes = [
-// { path : '' , component : AppComponent },
-{ path : 'home' , component : HomeComponent },
-{ path : 'search', component : SearchComponent },
-{ path : 'user' , component : UserComponent },
-{ path : 'group' , component : GroupComponent },
-{ path : 'resourcemanagement' , component : ResourceComponent },
-{ path : 'schemamanagement' , component : SchemaComponent },
-]
+// export const routes : Routes = [
+// // { path : '' , component : AppComponent },
+// { path : 'home' , component : HomeComponent },
+// { path : 'search', component : SearchComponent },
+// { path : 'user' , component : UserComponent },
+// { path : 'group' , component : GroupComponent },
+// { path : 'resourcemanagement' , component : ResourceComponent },
+// { path : 'schemamanagement' , component : SchemaComponent },
+// ]
 
 
 //routes for modules . for feature modules loadChildren property will be used.
